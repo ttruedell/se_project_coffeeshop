@@ -202,3 +202,8 @@
   padding-top: 24px;
   color: #fff;
 }
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../../images/background_reservation.svg);
+}

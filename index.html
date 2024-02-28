@@ -93,7 +93,23 @@
             </figure>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a Table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Name *</label>
+              <input class="form__input" type="text" id="name" />
+              <label class="form__label" for="guest-number"
+                >Number of guests *</label
+              >
+              <input class="form__input" type="number" id="guest-number" />
+              <label class="form__label" for="date-time">Date & Time *</label>
+              <input class="form__input" type="datetime-local" id="date-time" />
+              <label class="form__label" for="email">Your email *</label>
+              <input class="form__input" type="email" id="email" />
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>
