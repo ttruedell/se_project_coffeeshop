@@ -216,12 +216,14 @@
   padding-top: 100px;
   padding-bottom: 80px;
   margin: 0;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  padding-bottom: 120px;
 }
 
 .form__fieldset {
@@ -239,25 +241,34 @@
 
 .form__label {
   padding-bottom: 8px;
+  font-weight: 500;
 }
-.form__label:last-of-type {
+
+.form__label_checkbox {
   padding-bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 120px;
 }
 
 .form__input {
+  height: 60px;
   border-radius: 4px;
-
   margin-bottom: 32px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 
 .form__button {
+  background-color: #2f80ed;
+  color: #fff;
+  height: 60px;
   border-radius: 4px;
   opacity: 100%;
   transition: opacity ease-in-out 0.4s 0.4s;
-
   margin-bottom: 32px;
   padding: 0;
 }
