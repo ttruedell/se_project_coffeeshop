@@ -13,9 +13,6 @@
   justify-content: space-between;
 }
 
-.footer__column {
-}
-
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
@@ -39,7 +36,9 @@
 
 .footer__social-heading {
   margin: 0;
-  font-weight: 500;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list {
@@ -53,12 +52,12 @@
 }
 
 .footer__list-item {
-  margin-top: 20px;
+  margin-top: 16px;
   margin-bottom: 0px;
 }
 
-.footer__list-item:last-of-type {
-  margin-top: 16px;
+.footer__list-item:first-of-type {
+  margin-top: 20px;
 }
 
 .footer__social-icon {

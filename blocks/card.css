@@ -14,12 +14,16 @@
   font-weight: bold;
 }
 
+.card__list {
+  list-style-type: none;
+}
+
 .card__list-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 16px;
-  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", Arial;
 }
 
 .card__list-item:first-of-type {
