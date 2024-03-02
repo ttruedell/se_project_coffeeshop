@@ -25,7 +25,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 16px;
-  font-family: "Noto Serif", "Times New Roman", monospace;
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .card__list-item:first-of-type {
