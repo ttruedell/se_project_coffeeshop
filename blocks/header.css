@@ -64,7 +64,7 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 500;
-  color: #838383;
+  color: #6f6f6f;
   font-size: 16px;
   line-height: 20px;
 }
@@ -88,5 +88,5 @@
   align-self: flex-end;
   position: relative;
   bottom: 40px;
-  right: 80px;
+  right: 160px;
 }
