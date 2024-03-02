@@ -15,12 +15,11 @@
 .form__label {
   padding-bottom: 8px;
   font-weight: 500;
-  font-size: 16x;
+  font-size: 16px;
   line-height: 20px;
 }
 
 .form__label_type_checkbox {
-  padding-bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +30,7 @@
   height: 60px;
   border-radius: 4px;
   margin-bottom: 32px;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Inter", Arial, monospace;
   font-size: 20px;
   line-height: 30px;
   color: #838383;

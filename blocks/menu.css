@@ -23,7 +23,7 @@
   margin: 0;
   padding-top: 24px;
   text-align: center;
-  font-family: "Noto Serif", "Times New Roman", Arial;
+  font-family: "Noto Serif", "Times New Roman", monospace;
   font-size: 20px;
   line-height: 30px;
 }
