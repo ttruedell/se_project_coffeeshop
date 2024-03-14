@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
+The URL is https://ttruedell.github.io/se_project_coffeeshop/
+
 Add your ideas here :)
